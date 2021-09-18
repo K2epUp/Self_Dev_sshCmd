@@ -30,7 +30,7 @@ if __name__ == '__main__':
             }
     cmd = ['cal','uname -a']
     username = "root"
-    passwd = "123456"
+    passwd = "12345678"
     threads = []
     for ip in hosts.values():
         a = threading.Thread(target=ssh2,args=(ip,username,passwd,cmd))
